@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="orangeHRM">
+    <test name="Orange hrm chrome test">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name="MiniProject.OrangeHRM"></class>
+        </classes>
+    </test>
+    <test name="Orange hrm edge test">
+        <parameter name="Browser" value="Edge"></parameter>
+        <classes>
+            <class name="MiniProject.OrangeHRM"></class>
+        </classes>
+    </test>
+<!--    <test name="Orange hrm firefox test">-->
+<!--        <parameter name="Browser" value="FireFox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="MiniProject.OrangeHRM"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
